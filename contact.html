@@ -16,7 +16,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 // these IDs from the previous steps
-                emailjs.sendForm('service_zam5lfs', 'template_2hk30xn', this)
+                emailjs.sendForm('default_service', 'template_2hk30xn', this)
                     .then(() => {
                         console.log('SUCCESS!');
                     }, (error) => {
