@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "ENDEV, IT-Partner für KMU und Startups",
+        "description": ""
+    },
+    "header": {
+        "subtitle": "IT-Partner, KMU und Startups"
+    },
+    "nav": {
+        "home": "Startseite",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "whitepapers": "Whitepapers",
+        "contact": "Kontakt",
+        "language": "English"
+    },
+    "about": {
+        "title": "Über uns",
+        "subtitle": "Endev - IT-Partner, KMU und Startups.",
+        "tech_partner": "Technologiepartner",
+        "intro": "Unsere Dienstleistungen sind so konzipiert, dass Ihr Unternehmen Ergebnisse erzielt und Ihre Kunden besser bedient.",
+        "it_support": "IT-Support:",
+        "it_support_desc": "Support für das gesamte Spektrum von IT-Problemen einschließlich Hardware, Software, Netzwerk, Datenbank, Breitband, Website-Probleme.",
+        "custom_software": "Individuelle Software:",
+        "custom_software_desc": "Umfangreiche Erfahrung in der vollständigen Entwicklung von IT-Geschäftslösungen über ein breites Spektrum von Hardware, Softwareplattformen und Geschäftsanwendungen",
+        "web_dev": "Webanwendungsentwicklung:",
+        "web_dev_desc": "Entwicklung mit Fokus auf B2B und B2C in verschiedenen Technologien und Branchen.",
+        "infrastructure": "Infrastruktur:",
+        "infrastructure_desc": "wir helfen Organisationen, Prozesse in komplexen IT-Landschaften zu optimieren und zu modernisieren.",
+        "security": "Sicherheit:",
+        "security_desc": "Risikomanagement und -minderung mit unseren Penetrationstests und Sicherheitsbewertungsdiensten",
+        "web_presence": "Webpräsenz:",
+        "web_presence_desc": "Ihre Präsenz im Web schafft eine Verbindung und verbessert die Erfahrung Ihrer Kunden und Mitarbeiter."
+    },
+    "counts": {
+        "happy_clients": "Zufriedene Kunden",
+        "projects": "Projekte",
+        "hours_support": "Stunden Support",
+        "hard_workers": "Fleißige Arbeiter"
+    },
+    "skills": {
+        "title": "Fähigkeiten",
+        "infrastructure": "Infrastruktur",
+        "software": "Software",
+        "process_design": "Prozessgestaltung",
+        "web_development": "Webentwicklung",
+        "linux": "Linux/Unix",
+        "ux_ui": "UX/UI"
+    },
+    "interests": {
+        "title": "Interessen",
+        "operating_systems": "Betriebssysteme",
+        "security": "Sicherheit",
+        "process_modeling": "Prozessmodellierung",
+        "web_development": "Webentwicklung",
+        "programming": "Programmierung",
+        "research": "Forschung & Entwicklung",
+        "data_mining": "Data Mining",
+        "pen_testing": "Penetrationstests",
+        "info_security": "Informationssicherheit",
+        "authoring_tools": "Autorentools",
+        "business_process": "Geschäftsprozesse",
+        "networking": "Netzwerke"
+    },
+    "services": {
+        "title": "Dienstleistungen",
+        "subtitle": "endev - IT-Partner, KMU und Startups.",
+        "it_support": "IT-Support",
+        "it_support_desc": "Support für das gesamte Spektrum von IT-Problemen einschließlich Hardware, Software, Netzwerk, Datenbank, Breitband, Website-Probleme.",
+        "custom_software": "Individuelle Software",
+        "custom_software_desc": "Umfangreiche Erfahrung in der vollständigen Entwicklung von IT-Geschäftslösungen über ein breites Spektrum von Hardware, Softwareplattformen und Geschäftsanwendungen",
+        "web_app_dev": "Webanwendungsentwicklung",
+        "web_app_dev_desc": "Entwicklung mit Fokus auf B2B und B2C in verschiedenen Technologien und Branchen.",
+        "infrastructure": "Infrastruktur",
+        "infrastructure_desc": "Wir helfen Organisationen, Prozesse in komplexen IT-Landschaften zu optimieren und zu modernisieren.",
+        "security": "Sicherheit",
+        "security_desc": "Risikomanagement und -minderung mit unseren Penetrationstests und Sicherheitsbewertungsdiensten.",
+        "web_presence": "Webpräsenz",
+        "web_presence_desc": "Ihre Präsenz im Web schafft eine Verbindung und verbessert die Erfahrung Ihrer Kunden und Mitarbeiter."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "endev - IT-Partner, KMU und Startups.",
+        "all": "Alle",
+        "app": "App",
+        "card": "Card",
+        "web": "Web"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle": "Kontaktieren Sie uns",
+        "description": "endev - IT-Partner, KMU und Startups.",
+        "address": "Adresse",
+        "social_profiles": "Soziale Profile",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "name_placeholder": "Ihr Name",
+        "email_placeholder": "Ihre E-Mail",
+        "subject_placeholder": "Betreff",
+        "message_placeholder": "Nachricht",
+        "loading": "Wird gesendet...",
+        "success_message": "Ihre Nachricht wurde erfolgreich gesendet. Vielen Dank!",
+        "error_message": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "sent_message": "Ihre Nachricht wurde gesendet. Vielen Dank!",
+        "send_button": "Nachricht senden"
+    },
+    "footer": {
+        "designed_by": "Entworfen von"
+    }
+}

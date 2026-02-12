@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "title": "ENDEV, Socio tecnológico, PYME's y emprendimientos",
+        "description": ""
+    },
+    "header": {
+        "subtitle": "Socio IT, PYMES emprendimientos"
+    },
+    "nav": {
+        "home": "Inicio",
+        "about": "Nosotros",
+        "services": "Servicios",
+        "contact": "Contacto",
+        "language": "English"
+    },
+    "about": {
+        "title": "Sobre Nosotros",
+        "subtitle": "ENDEV - Socio IT, PYMEs y emprendimientos.",
+        "tech_partner": "Socio tecnológico",
+        "intro": "Diseñamos nuestro servicio para que su negocio genere resultados y usted enfoque su esfuerzo en servir mejor a sus clientes.",
+        "it_support": "Asistencia IT:",
+        "it_support_desc": "Le asistimos en todo el espectro relacionado con asuntos en tecnología de la información, incluyendo --sin limitarnos a--Hardware, Software, Redes, Base de datos, banda ancha, sitios web, entre otros.",
+        "custom_software": "Software a la medida:",
+        "custom_software_desc": "Tenemos amplia experiencia en el ciclo completo del desarrollo de soluciones de negocios",
+        "web_dev": "Desarrollo de aplicaciones web:",
+        "web_dev_desc": "Desarrollamos programas de computadora basados en tecnología web y con enfoque B2B y B2C en varias industrias.",
+        "infrastructure": "Infraestructura:",
+        "infrastructure_desc": "Ayudamos a las organizaciones a racionalizar y modernizar procesos en entornos complejos de TI.",
+        "security": "Seguridad:",
+        "security_desc": "gestión y mitigación de riesgos; aseguramiento de la seguridad de la información y pruebas de penetración",
+        "web_presence": "Presencia web:",
+        "web_presence_desc": "Su presencia web crea una conexión y mejora la experiencia de sus clientes y colaboradores. Le ayudamos a crear sitios web con la funcionalidad que necesita para servir mejor a sus clientes"
+    },
+    "counts": {
+        "happy_clients": "Clientes Felices",
+        "projects": "Proyectos",
+        "hours_support": "Horas de asistencia técnica",
+        "hard_workers": "Trabajadores"
+    },
+    "skills": {
+        "title": "Habilidades",
+        "infrastructure": "Infraestructura",
+        "software": "Software",
+        "process_design": "Diseño de Procesos",
+        "web_development": "Desarrollo Web",
+        "linux": "Linux/Unix",
+        "ux_ui": "UX/UI"
+    },
+    "interests": {
+        "title": "Intereses",
+        "operating_systems": "Sistemas Operativos",
+        "security": "Seguridad",
+        "process_modeling": "Modelación de procesos",
+        "web_development": "Desarrollo Web",
+        "programming": "Programación",
+        "research": "Investigación & Desarrollo",
+        "data_mining": "Data mining",
+        "pen_testing": "Pen testing",
+        "info_security": "Seguridad de la Información",
+        "authoring_tools": "Autoring tools",
+        "business_process": "Procesos de Negocio",
+        "networking": "Networking"
+    },
+    "services": {
+        "title": "Servicios",
+        "subtitle": "ENDEV - Socio tecnológico, PYME's y emprendimientos.",
+        "it_support": "Asistencia en IT",
+        "it_support_desc": "Le brindamos asistencia en todo el espectro IT, incluyendo --y sin limitarnos a--Hardware, Software, Networking, bases de datos, banda ancha, sitios web, implementación de sistemas.",
+        "custom_software": "Desarrollo de software",
+        "custom_software_desc": "Contamos con un bagaje extensivo en desarrollo de software enfocado en negocios y gestión de clientes. Brindamos servicio como Unidad de Desarrollo nearshore",
+        "web_app_dev": "Desarrollo de software Web",
+        "web_app_dev_desc": "Desarrollamos software enfocado a funcionalidades B2B y B2C.",
+        "infrastructure": "Infraestructura",
+        "infrastructure_desc": "Brindamos asesoría y apoyamos a las empresas a lidiar con la modernización de sus procesos hacia entornos IT.",
+        "security": "Seguridad",
+        "security_desc": "Contamos con especialistas para la gestión y mitigación de riesgos relacionados con la seguridad de la información; Brindamos servicio de pruebas de penetración y aseguramiento de la seguridad de la información.",
+        "web_presence": "Presencia web",
+        "web_presence_desc": "Con el servicio de presencia web creamos una personalidad en la Internet para su negocio: sitio web, correo electrónico, aplicaciones web de negocios, entre otros."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "ENDEV - Socio tecnológico, PYME's y emprendimientos.",
+        "all": "Todos",
+        "app": "App",
+        "card": "Card",
+        "web": "Web"
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "Escríbenos",
+        "description": "ENDEV - Socio Tecnológico, PYME's y emprendimientos.",
+        "address": "Dirección",
+        "social_profiles": "Perfiles Sociales",
+        "email": "Email",
+        "phone": "Teléfono",
+        "name_placeholder": "Tu Nombre",
+        "email_placeholder": "Tu Email",
+        "subject_placeholder": "Asunto",
+        "message_placeholder": "Mensaje",
+        "loading": "Enviando...",
+        "success_message": "¡Tu mensaje ha sido enviado exitosamente! Gracias.",
+        "error_message": "Hubo un error al enviar tu mensaje. Por favor intenta de nuevo más tarde.",
+        "sent_message": "Tu mensaje ha sido enviado. ¡Gracias!",
+        "send_button": "Enviar Mensaje"
+    },
+    "footer": {
+        "designed_by": "Diseñado por"
+    }
+}

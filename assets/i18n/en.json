@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "ENDEV, IT partner SMB and Startups",
+        "description": ""
+    },
+    "header": {
+        "subtitle": "IT Partner, SMB and Startups"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "whitepapers": "Whitepapers",
+        "contact": "Contact",
+        "language": "Español"
+    },
+    "about": {
+        "title": "About",
+        "subtitle": "Endev - IT Partner, SMB and Startups.",
+        "tech_partner": "Technology partner",
+        "intro": "Our services are designed so that your business generates results and better serve your clients.",
+        "it_support": "IT Support:",
+        "it_support_desc": "Support for the entire spectrum of IT Issues including Hardware, Software, Network, Database Broadband, Website Issues.",
+        "custom_software": "Custom Software:",
+        "custom_software_desc": "Extensive background in the full life cycle development of IT business solutions across a broad spectrum of hardware, software platforms and business applications",
+        "web_dev": "Web Application Development:",
+        "web_dev_desc": "Development focused on B2B and B2C in different technologies and industries.",
+        "infrastructure": "Infrastructure:",
+        "infrastructure_desc": "we help organizations streamline and modernize processes across complex IT landscapes.",
+        "security": "Security:",
+        "security_desc": "management and mitigation risk with our penetration testing and security assessment services",
+        "web_presence": "Web presence:",
+        "web_presence_desc": "Your presence on the web creates a connection and improves the experience of your clients and collaborators."
+    },
+    "counts": {
+        "happy_clients": "Happy Clients",
+        "projects": "Projects",
+        "hours_support": "Hours Of Support",
+        "hard_workers": "Hard Workers"
+    },
+    "skills": {
+        "title": "Skills",
+        "infrastructure": "Infrastructure",
+        "software": "Software",
+        "process_design": "Process Design",
+        "web_development": "Web development",
+        "linux": "Linux/Unix",
+        "ux_ui": "UX/UI"
+    },
+    "interests": {
+        "title": "Interests",
+        "operating_systems": "Operating Systems",
+        "security": "Security",
+        "process_modeling": "Process Modeling",
+        "web_development": "Web Development",
+        "programming": "Programming",
+        "research": "Research & Development",
+        "data_mining": "Data mining",
+        "pen_testing": "Pen testing",
+        "info_security": "Information Security",
+        "authoring_tools": "Autoring tools",
+        "business_process": "Business Process",
+        "networking": "Networking"
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "endev - IT Partner, SMB and Startups.",
+        "it_support": "IT Support",
+        "it_support_desc": "Support for the entire spectrum of IT Issues including Hardware , Software, Network , Database Broadband, Website Issues.",
+        "custom_software": "Custom Software",
+        "custom_software_desc": "Extensive background in the full life cycle development of IT business solutions across a broad spectrum of hardware, software platforms and business applications",
+        "web_app_dev": "Web Application Development",
+        "web_app_dev_desc": "Development focused on B2B and B2C in different technologies and industries.",
+        "infrastructure": "Infrastructure",
+        "infrastructure_desc": "We help organizations streamline and modernize processes across complex IT landscapes.",
+        "security": "Security",
+        "security_desc": "management and mitigation risk with our penetration testing and security assessment services.",
+        "web_presence": "Web presence",
+        "web_presence_desc": "Your presence on the web creates a connection and improves the experience of your clients and collaborators."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "endev - IT Partner, SMB and Startups.",
+        "all": "All",
+        "app": "App",
+        "card": "Card",
+        "web": "Web"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Contact us",
+        "description": "endev - IT Partner, SMB and Startups.",
+        "address": "Address",
+        "social_profiles": "Social Profiles",
+        "email": "Email Me & my support team",
+        "phone": "Phone Line",
+        "name_placeholder": "Your Name",
+        "email_placeholder": "Your Email",
+        "subject_placeholder": "Subject",
+        "message_placeholder": "Message",
+        "loading": "Sending...",
+        "success_message": "Your message has been sent successfully. Thank you!",
+        "error_message": "There was an error sending your message. Please try again later.",
+        "sent_message": "Your message has been sent. Thank you!",
+        "send_button": "Send Message"
+    },
+    "footer": {
+        "designed_by": "Designed by"
+    }
+}

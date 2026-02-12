@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "ENDEV, Parceiro de TI PME e Startups",
+        "description": ""
+    },
+    "header": {
+        "subtitle": "Parceiro de TI, PME e Startups"
+    },
+    "nav": {
+        "home": "Início",
+        "about": "Sobre",
+        "services": "Serviços",
+        "whitepapers": "Whitepapers",
+        "contact": "Contato",
+        "language": "English"
+    },
+    "about": {
+        "title": "Sobre",
+        "subtitle": "Endev - Parceiro de TI, PME e Startups.",
+        "tech_partner": "Parceiro tecnológico",
+        "intro": "Nossos serviços são projetados para que seu negócio gere resultados e sirva melhor seus clientes.",
+        "it_support": "Suporte de TI:",
+        "it_support_desc": "Suporte para todo o espectro de problemas de TI, incluindo Hardware, Software, Rede, Banco de Dados, Banda Larga, Problemas de Website.",
+        "custom_software": "Software Personalizado:",
+        "custom_software_desc": "Vasta experiência no desenvolvimento completo de soluções de negócios de TI em um amplo espectro de hardware, plataformas de software e aplicações de negócios",
+        "web_dev": "Desenvolvimento de Aplicações Web:",
+        "web_dev_desc": "Desenvolvimento focado em B2B e B2C em diferentes tecnologias e indústrias.",
+        "infrastructure": "Infraestrutura:",
+        "infrastructure_desc": "ajudamos organizações a otimizar e modernizar processos em paisagens de TI complexas.",
+        "security": "Segurança:",
+        "security_desc": "gerenciamento e mitigação de riscos com nossos serviços de testes de penetração e avaliação de segurança",
+        "web_presence": "Presença web:",
+        "web_presence_desc": "Sua presença na web cria uma conexão e melhora a experiência de seus clientes e colaboradores."
+    },
+    "counts": {
+        "happy_clients": "Clientes Satisfeitos",
+        "projects": "Projetos",
+        "hours_support": "Horas de Suporte",
+        "hard_workers": "Trabalhadores Dedicados"
+    },
+    "skills": {
+        "title": "Habilidades",
+        "infrastructure": "Infraestrutura",
+        "software": "Software",
+        "process_design": "Design de Processos",
+        "web_development": "Desenvolvimento Web",
+        "linux": "Linux/Unix",
+        "ux_ui": "UX/UI"
+    },
+    "interests": {
+        "title": "Interesses",
+        "operating_systems": "Sistemas Operacionais",
+        "security": "Segurança",
+        "process_modeling": "Modelagem de processos",
+        "web_development": "Desenvolvimento Web",
+        "programming": "Programação",
+        "research": "Pesquisa & Desenvolvimento",
+        "data_mining": "Mineração de dados",
+        "pen_testing": "Testes de penetração",
+        "info_security": "Segurança da Informação",
+        "authoring_tools": "Ferramentas de autoria",
+        "business_process": "Processos de Negócio",
+        "networking": "Redes"
+    },
+    "services": {
+        "title": "Serviços",
+        "subtitle": "endev - Parceiro de TI, PME e Startups.",
+        "it_support": "Suporte de TI",
+        "it_support_desc": "Suporte para todo o espectro de problemas de TI, incluindo Hardware, Software, Rede, Banco de Dados, Banda Larga, Problemas de Website.",
+        "custom_software": "Software Personalizado",
+        "custom_software_desc": "Vasta experiência no desenvolvimento completo de soluções de negócios de TI em um amplo espectro de hardware, plataformas de software e aplicações de negócios",
+        "web_app_dev": "Desenvolvimento de Aplicações Web",
+        "web_app_dev_desc": "Desenvolvimento focado em B2B e B2C em diferentes tecnologias e indústrias.",
+        "infrastructure": "Infraestrutura",
+        "infrastructure_desc": "Ajudamos organizações a otimizar e modernizar processos em paisagens de TI complexas.",
+        "security": "Segurança",
+        "security_desc": "gerenciamento e mitigação de riscos com nossos serviços de testes de penetração e avaliação de segurança.",
+        "web_presence": "Presença web",
+        "web_presence_desc": "Sua presença na web cria uma conexão e melhora a experiência de seus clientes e colaboradores."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "endev - Parceiro de TI, PME e Startups.",
+        "all": "Todos",
+        "app": "App",
+        "card": "Card",
+        "web": "Web"
+    },
+    "contact": {
+        "title": "Contato",
+        "subtitle": "Entre em contato",
+        "description": "endev - Parceiro de TI, PME e Startups.",
+        "address": "Endereço",
+        "social_profiles": "Perfis Sociais",
+        "email": "E-mail",
+        "phone": "Telefone",
+        "name_placeholder": "Seu Nome",
+        "email_placeholder": "Seu E-mail",
+        "subject_placeholder": "Assunto",
+        "message_placeholder": "Mensagem",
+        "loading": "Enviando...",
+        "success_message": "Sua mensagem foi enviada com sucesso. Obrigado!",
+        "error_message": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.",
+        "sent_message": "Sua mensagem foi enviada. Obrigado!",
+        "send_button": "Enviar Mensagem"
+    },
+    "footer": {
+        "designed_by": "Projetado por"
+    }
+}

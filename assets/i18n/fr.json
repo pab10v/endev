@@ -1,0 +1,110 @@
+{
+    "meta": {
+        "title": "ENDEV, Partenaire IT PME et Startups",
+        "description": ""
+    },
+    "header": {
+        "subtitle": "Partenaire IT, PME et Startups"
+    },
+    "nav": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "whitepapers": "Whitepapers",
+        "contact": "Contact",
+        "language": "English"
+    },
+    "about": {
+        "title": "À propos",
+        "subtitle": "Endev - Partenaire IT, PME et Startups.",
+        "tech_partner": "Partenaire technologique",
+        "intro": "Nos services sont conçus pour que votre entreprise génère des résultats et serve mieux vos clients.",
+        "it_support": "Support IT:",
+        "it_support_desc": "Support pour tout le spectre des problèmes IT incluant Matériel, Logiciel, Réseau, Base de données, Broadband, Sites Web.",
+        "custom_software": "Logiciel sur mesure:",
+        "custom_software_desc": "Vaste expérience dans le développement complet de solutions métier IT sur un large éventail de matériel, plateformes logicielles et applications métier",
+        "web_dev": "Développement d'applications Web:",
+        "web_dev_desc": "Développement axé sur B2B et B2C dans différentes technologies et industries.",
+        "infrastructure": "Infrastructure:",
+        "infrastructure_desc": "nous aidons les organisations à rationaliser et moderniser les processus dans des paysages IT complexes.",
+        "security": "Sécurité:",
+        "security_desc": "gestion et atténuation des risques avec nos services de tests d'intrusion et d'évaluation de la sécurité",
+        "web_presence": "Présence web:",
+        "web_presence_desc": "Votre présence sur le web crée une connexion et améliore l'expérience de vos clients et collaborateurs."
+    },
+    "counts": {
+        "happy_clients": "Clients Satisfaits",
+        "projects": "Projets",
+        "hours_support": "Heures de Support",
+        "hard_workers": "Travailleurs Dévoués"
+    },
+    "skills": {
+        "title": "Compétences",
+        "infrastructure": "Infrastructure",
+        "software": "Logiciel",
+        "process_design": "Conception de Processus",
+        "web_development": "Développement Web",
+        "linux": "Linux/Unix",
+        "ux_ui": "UX/UI"
+    },
+    "interests": {
+        "title": "Intérêts",
+        "operating_systems": "Systèmes d'exploitation",
+        "security": "Sécurité",
+        "process_modeling": "Modélisation de processus",
+        "web_development": "Développement Web",
+        "programming": "Programmation",
+        "research": "Recherche & Développement",
+        "data_mining": "Data mining",
+        "pen_testing": "Tests d'intrusion",
+        "info_security": "Sécurité de l'information",
+        "authoring_tools": "Outils d'édition",
+        "business_process": "Processus métier",
+        "networking": "Réseautage"
+    },
+    "services": {
+        "title": "Services",
+        "subtitle": "endev - Partenaire IT, PME et Startups.",
+        "it_support": "Support IT",
+        "it_support_desc": "Support pour tout le spectre des problèmes IT incluant Matériel, Logiciel, Réseau, Base de données Broadband, Sites Web.",
+        "custom_software": "Logiciel sur mesure",
+        "custom_software_desc": "Vaste expérience dans le développement complet de solutions métier IT sur un large éventail de matériel, plateformes logicielles et applications métier",
+        "web_app_dev": "Développement d'applications Web",
+        "web_app_dev_desc": "Développement axé sur B2B et B2C dans différentes technologies et industries.",
+        "infrastructure": "Infrastructure",
+        "infrastructure_desc": "Nous aidons les organisations à rationaliser et moderniser les processus dans des paysages IT complexes.",
+        "security": "Sécurité",
+        "security_desc": "gestion et atténuation des risques avec nos services de tests d'intrusion et d'évaluation de la sécurité.",
+        "web_presence": "Présence web",
+        "web_presence_desc": "Votre présence sur le web crée une connexion et améliore l'expérience de vos clients et collaborateurs."
+    },
+    "portfolio": {
+        "title": "Portfolio",
+        "subtitle": "endev - Partenaire IT, PME et Startups.",
+        "all": "Tout",
+        "app": "App",
+        "card": "Card",
+        "web": "Web"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Contactez-nous",
+        "description": "endev - Partenaire IT, PME et Startups.",
+        "address": "Adresse",
+        "social_profiles": "Profils Sociaux",
+        "email": "Email",
+        "phone": "Téléphone",
+        "name_placeholder": "Votre Nom",
+        "email_placeholder": "Votre Email",
+        "subject_placeholder": "Sujet",
+        "message_placeholder": "Message",
+        "loading": "Envoi en cours...",
+        "success_message": "Votre message a été envoyé avec succès. Merci!",
+        "error_message": "Une erreur s'est produite lors de l'envoi de votre message. Veuillez réessayer plus tard.",
+        "sent_message": "Votre message a été envoyé. Merci!",
+        "send_button": "Envoyer le Message"
+    },
+    "footer": {
+        "designed_by": "Conçu par"
+    }
+}
