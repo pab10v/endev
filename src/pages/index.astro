@@ -1,0 +1,71 @@
+---
+import StructuralLayout from '../layouts/StructuralLayout.astro';
+import NodeHeader from '../components/NodeHeader.astro';
+import ResilienceHero from '../components/ResilienceHero.astro';
+import InsightGrid from '../components/InsightGrid.astro';
+---
+
+<StructuralLayout>
+	<NodeHeader />
+	<main>
+		<ResilienceHero />
+		<InsightGrid />
+	</main>
+	
+	<footer class="system-status glass">
+		<div class="container footer-content">
+			<div class="status-indicator">
+				<span class="dot pulse"></span>
+				<span class="mono">Ecosystem Cluster: Online</span>
+			</div>
+			<div class="copyright mono">
+				&copy; {new Date().getFullYear()} ENDEV / Distributed Systems Architecture
+			</div>
+		</div>
+	</footer>
+
+	<style>
+		.system-status {
+			padding: 2rem 0;
+			border-top: 1px solid var(--border-color);
+			margin-top: 4rem;
+		}
+
+		.footer-content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.status-indicator {
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+		}
+
+		.dot {
+			width: 8px;
+			height: 8px;
+			background: #00ff00;
+			border-radius: 50%;
+			box-shadow: 0 0 10px #00ff00;
+		}
+
+		.pulse {
+			animation: pulse 2s infinite;
+		}
+
+		@keyframes pulse {
+			0% { opacity: 1; transform: scale(1); }
+			50% { opacity: 0.5; transform: scale(1.2); }
+			100% { opacity: 1; transform: scale(1); }
+		}
+
+		.mono {
+			font-family: var(--font-mono);
+			font-size: 0.75rem;
+			color: var(--text-muted);
+			text-transform: uppercase;
+		}
+	</style>
+</StructuralLayout>

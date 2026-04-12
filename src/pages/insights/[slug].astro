@@ -1,0 +1,125 @@
+---
+import StructuralLayout from '../../layouts/StructuralLayout.astro';
+import NodeHeader from '../../components/NodeHeader.astro';
+import { getPosts, getPostBySlug } from '../../lib/wp';
+
+export async function getStaticPaths() {
+	const posts = await getPosts();
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: { post },
+	}));
+}
+
+const { post } = Astro.props;
+---
+
+<StructuralLayout title={post.title.rendered}>
+	<NodeHeader />
+	
+	<main class="insight-reader container animate-in">
+		<article class="content-node">
+			<header class="post-header">
+				<div class="meta mono">
+					<span>DATA_NODE: {post.id}</span>
+					<span class="divider"></span>
+					<span>TIMESTAMP: {new Date(post.date).toLocaleDateString('es-ES')}</span>
+				</div>
+				<h1 dangerouslySetInnerHTML={{ __html: post.title.rendered }}></h1>
+			</header>
+
+			{post._embedded?.['wp:featuredmedia']?.[0]?.source_url && (
+				<img src={post._embedded?.['wp:featuredmedia']?.[0]?.source_url} alt={post.title.rendered} class="featured-media" />
+			)}
+
+			<div class="post-body" dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
+			
+			<footer class="post-footer">
+				<a href="/" class="back-btn mono"><- Return to Central Hub</a>
+			</footer>
+		</article>
+	</main>
+</StructuralLayout>
+
+<style>
+	.insight-reader {
+		padding-top: 150px;
+		padding-bottom: 8rem;
+		max-width: 800px;
+	}
+
+	.post-header {
+		margin-bottom: 3rem;
+	}
+
+	.meta {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		color: var(--accent-cyan);
+		margin-bottom: 1rem;
+		font-size: 0.8rem;
+	}
+
+	.meta .divider {
+		width: 4px;
+		height: 4px;
+		background: var(--accent-cyan);
+		border-radius: 50%;
+	}
+
+	h1 {
+		font-size: clamp(2.5rem, 5vw, 3.5rem);
+		color: #fff;
+		line-height: 1.1;
+	}
+
+	.featured-media {
+		width: 100%;
+		height: auto;
+		border-radius: 8px;
+		margin-bottom: 3rem;
+		border: 1px solid var(--border-color);
+	}
+
+	.post-body {
+		font-size: 1.15rem;
+		color: var(--text-secondary);
+		line-height: 1.8;
+	}
+
+	.post-body :global(p) {
+		margin-bottom: 2rem;
+	}
+
+	.post-body :global(h2), .post-body :global(h3) {
+		color: #fff;
+		margin: 3rem 0 1.5rem;
+	}
+
+	.post-body :global(pre) {
+		background: var(--bg-secondary);
+		padding: 1.5rem;
+		border-radius: 8px;
+		border: 1px solid var(--border-color);
+		overflow-x: auto;
+		margin-bottom: 2rem;
+	}
+
+	.post-footer {
+		margin-top: 5rem;
+		border-top: 1px solid var(--border-color);
+		padding-top: 2rem;
+	}
+
+	.back-btn {
+		color: var(--accent-cyan);
+		font-weight: 700;
+	}
+
+	.mono {
+		font-family: var(--font-mono);
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+</style>

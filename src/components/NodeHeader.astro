@@ -1,0 +1,94 @@
+---
+import { getSiteInfo } from '../lib/wp';
+
+const siteInfo = await getSiteInfo();
+---
+
+<header class="glass fixed-header">
+	<div class="container header-content">
+		<a href="/" class="logo-area">
+			{siteInfo.logo ? (
+				<img src={siteInfo.logo} alt={siteInfo.name} class="logo-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
+			) : null}
+			<span class="logo-text">{siteInfo.name}</span>
+		</a>
+		<nav class="nav-links">
+			<a href="/insights" class="nav-item">Ecosystem Insights</a>
+			<a href="#contact" class="nav-item contact-trigger">Connect Node</a>
+		</nav>
+	</div>
+</header>
+
+<style>
+	.fixed-header {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 1000;
+		padding: 1rem 0;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.header-content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.logo-area {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		font-family: var(--font-mono);
+		font-weight: 700;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+
+	.logo-image {
+		height: 32px;
+		width: auto;
+	}
+
+	.nav-links {
+		display: flex;
+		gap: 2rem;
+		font-family: var(--font-mono);
+		font-size: 0.9rem;
+		text-transform: uppercase;
+	}
+
+	.nav-item {
+		position: relative;
+		padding: 0.5rem 0;
+	}
+
+	.nav-item::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 1px;
+		background: var(--accent-cyan);
+		transition: width 0.3s ease;
+	}
+
+	.nav-item:hover::after {
+		width: 100%;
+	}
+
+	.contact-trigger {
+		color: var(--accent-cyan);
+		border: 1px solid var(--accent-cyan);
+		padding: 0.5rem 1rem !important;
+		border-radius: 4px;
+	}
+
+	.contact-trigger:hover {
+		background: var(--accent-cyan);
+		color: var(--bg-primary);
+	}
+</style>
